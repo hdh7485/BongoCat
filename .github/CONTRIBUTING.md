@@ -1,63 +1,55 @@
-# 贡献指南
+# 기여 가이드
 
-非常感谢您对 BongoCat 的关注和贡献！在您提交贡献之前，请先花一些时间阅读以下指南，以确保您的贡献能够顺利进行。
+BongoCat에 관심을 가져주셔서 감사합니다! 기여하기 전에 아래 내용을 먼저 읽어주세요.
 
-## 透明的开发
+## 개발 환경 설정
 
-所有工作都在 GitHub 上公开进行。无论是核心团队成员还是外部贡献者的 Pull Request，都需要经过相同的 review 流程。
+### 필수 도구
 
-## 提交 Issue
+- [Rust](https://v2.tauri.app/start/prerequisites/) — Tauri 빌드에 필요
+- [Node.js](https://nodejs.org/)
+- [pnpm](https://pnpm.io/)
 
-我们使用 [Github Issues](https://github.com/ayangweb/BongoCat/issues) 进行 Bug 报告和新 Feature 建议。在提交 Issue 之前，请确保已经搜索过类似的问题，因为它们可能已经得到解答或正在被修复。对于 Bug 报告，请包含可用于重现问题的完整步骤。对于新 Feature 建议，请指出你想要的更改以及期望的行为。
+### 설치 및 실행
 
-## 提交 Pull Request
-
-### 共建流程
-
-- 认领 issue：在 Github 建立 Issue 并认领（或直接认领已有 Issue），告知大家自己正在修复，避免重复工作。
-- 项目开发：在完成准备工作后，进行 Bug 修复或功能开发。
-- 提交 PR。
-
-### 准备工作
-
-- [Rust](https://v2.tauri.app/start/prerequisites/): 请自行根据官网步骤安装 rust 环境。
-- [Node.js](https://nodejs.org/en/): 用于运行项目。
-- [Pnpm](https://pnpm.io/)：本项目使用 Pnpm 进行包管理。
-
-### 下载依赖
-
-```shell
+```bash
+# 의존성 설치
 pnpm install
-```
 
-### 启动应用
-
-```shell
+# 개발 서버 실행
 pnpm tauri dev
-```
 
-### 打包应用
-
-> 如果需要打包后进行调试，请在以下命令后面加上 `--debug`
-
-```shell
+# 앱 빌드
 pnpm tauri build
+
+# 디버그 빌드
+pnpm tauri build --debug
 ```
 
-## Commit 指南
+## 기여 방법
 
-Commit messages 请遵循[conventional-changelog 标准](https://www.conventionalcommits.org/en/v1.0.0/)。
+1. 작업할 이슈를 [GitHub Issues](https://github.com/hdh7485/BongoCat/issues)에서 확인하거나 새로 생성합니다.
+2. 이슈를 본인에게 할당하여 중복 작업을 방지합니다.
+3. 브랜치를 생성하여 작업합니다.
+4. PR을 제출합니다.
 
-### Commit 类型
+## 커밋 메시지 규칙
 
-以下是 commit 类型列表:
+[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) 형식을 따릅니다.
 
-- feat: 新特性或功能
-- fix: 缺陷修复
-- docs: 文档更新
-- style: 代码风格更新
-- refactor: 代码重构，不引入新功能和缺陷修复
-- perf: 性能优化
-- chore: 其他提交
+| 타입 | 설명 |
+| ---- | ---- |
+| `feat` | 새 기능 추가 |
+| `fix` | 버그 수정 |
+| `docs` | 문서 수정 |
+| `style` | 코드 스타일 변경 (기능 변경 없음) |
+| `refactor` | 기능 변경 없는 코드 리팩토링 |
+| `perf` | 성능 개선 |
+| `chore` | 빌드, 설정 등 기타 변경 |
 
-期待您的参与，让我们一起使 BongoCat 变得更好！
+**예시**
+```
+feat: 게임패드 진동 피드백 지원 추가
+fix: Windows에서 키 해제 이벤트 누락 문제 수정
+docs: 설치 가이드 업데이트
+```
