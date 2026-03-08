@@ -28,7 +28,7 @@ export const modifierKeys: Key[] = [
 })
 
 export const standardKeys: Key[] = [
-  // 第一排
+  // 첫 번째 행
   {
     eventKey: 'Escape',
     symbol: isMac ? '⎋' : 'Esc',
@@ -68,7 +68,7 @@ export const standardKeys: Key[] = [
   },
   {
     eventKey: 'F12',
-  }, // 第二排
+  }, // 두 번째 행
   {
     eventKey: 'Backquote',
     symbol: '`',
@@ -117,7 +117,7 @@ export const standardKeys: Key[] = [
     eventKey: 'Backspace',
     symbol: isMac ? '⌫' : void 0,
   },
-  // 第三排
+  // 세 번째 행
   {
     eventKey: 'Tab',
     symbol: isMac ? '⇥' : void 0,
@@ -164,7 +164,7 @@ export const standardKeys: Key[] = [
     eventKey: 'Backslash',
     symbol: '\\',
   },
-  // 第四排
+  // 네 번째 행
   {
     eventKey: 'KeyA',
   },
@@ -204,7 +204,7 @@ export const standardKeys: Key[] = [
     eventKey: 'Enter',
     symbol: isMac ? '↩︎' : void 0,
   },
-  // 第五排
+  // 다섯 번째 행
   {
     eventKey: 'KeyZ',
   },
@@ -238,12 +238,12 @@ export const standardKeys: Key[] = [
     eventKey: 'Slash',
     symbol: '/',
   },
-  // 第六排
+  // 여섯 번째 행
   {
     eventKey: 'Space',
     symbol: isMac ? '␣' : void 0,
   },
-  // 方向键
+  // 방향키
   {
     eventKey: 'ArrowUp',
     symbol: '↑',

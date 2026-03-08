@@ -2,130 +2,130 @@
   "pages": {
     "main": {
       "hints": {
-        "redrawing": "重绘中..."
+        "redrawing": "다시 그리는 중..."
       }
     },
     "preference": {
-      "title": "偏好设置",
+      "title": "환경설정",
       "cat": {
-        "title": "猫咪设置",
+        "title": "고양이 설정",
         "labels": {
-          "modelSettings": "模型设置",
-          "mirrorMode": "镜像模式",
-          "singleMode": "单键模式",
-          "mouseMirror": "鼠标镜像",
-          "windowSettings": "窗口设置",
-          "passThrough": "窗口穿透",
-          "alwaysOnTop": "窗口置顶",
-          "windowSize": "窗口尺寸",
-          "windowRadius": "窗口圆角",
-          "opacity": "不透明度",
-          "autoReleaseDelay": "按键自动释放延迟",
-          "hideOnHover": "鼠标移入隐藏",
-          "position": "窗口位置"
+          "modelSettings": "모델 설정",
+          "mirrorMode": "미러 모드",
+          "singleMode": "단일 키 모드",
+          "mouseMirror": "마우스 미러",
+          "windowSettings": "창 설정",
+          "passThrough": "창 투과",
+          "alwaysOnTop": "창 상단 고정",
+          "windowSize": "창 크기",
+          "windowRadius": "창 모서리 반경",
+          "opacity": "불투명도",
+          "autoReleaseDelay": "키 자동 해제 지연",
+          "hideOnHover": "마우스 진입 시 숨기기",
+          "position": "창 위치"
         },
         "hints": {
-          "mirrorMode": "启用后，模型将水平镜像翻转。",
-          "singleMode": "启用后，每只手只显示最后按下的一个按键。",
-          "mouseMirror": "启用后，鼠标将镜像跟随手部移动。",
-          "passThrough": "启用后，窗口不影响对其他应用程序的操作。",
-          "alwaysOnTop": "启用后，窗口始终显示在其他应用程序上方。",
-          "windowSize": "将鼠标移至窗口边缘，或按住 Shift 并右键拖动，也可以调整窗口大小。",
-          "autoReleaseDelay": "由于 Windows 下部分系统级按键无法捕获释放事件，超时后将自动视为已释放。",
-          "hideOnHover": "启用后，鼠标悬停在窗口上时，窗口会隐藏。",
-          "position": "应用启动后，或当此参数、窗口尺寸、模型、电脑分辨率发生变化时生效。"
+          "mirrorMode": "활성화하면 모델이 수평으로 미러 반전됩니다.",
+          "singleMode": "활성화하면 각 손에 마지막으로 누른 키만 표시됩니다.",
+          "mouseMirror": "활성화하면 마우스가 손 움직임을 미러로 따라갑니다.",
+          "passThrough": "활성화하면 창이 다른 애플리케이션 조작에 영향을 주지 않습니다.",
+          "alwaysOnTop": "활성화하면 창이 항상 다른 애플리케이션 위에 표시됩니다.",
+          "windowSize": "마우스를 창 가장자리로 이동하거나, Shift를 누른 채 우클릭으로 드래그하여 창 크기를 조정할 수 있습니다.",
+          "autoReleaseDelay": "Windows에서 일부 시스템 키는 해제 이벤트를 캡처할 수 없어, 타임아웃 후 자동으로 해제된 것으로 처리됩니다.",
+          "hideOnHover": "활성화하면 마우스가 창 위에 올라갈 때 창이 숨겨집니다.",
+          "position": "앱 시작 후, 또는 이 설정, 창 크기, 모델, 화면 해상도가 변경될 때 적용됩니다."
         },
         "options": {
-          "topLeft": "左上角",
-          "topRight": "右上角",
-          "bottomLeft": "左下角",
-          "bottomRight": "右下角"
+          "topLeft": "왼쪽 상단",
+          "topRight": "오른쪽 상단",
+          "bottomLeft": "왼쪽 하단",
+          "bottomRight": "오른쪽 하단"
         }
       },
       "general": {
-        "title": "通用设置",
+        "title": "일반 설정",
         "labels": {
-          "appSettings": "应用设置",
-          "launchOnStartup": "开机自启动",
-          "showTaskbarIcon": "显示任务栏图标",
-          "appearanceSettings": "外观设置",
-          "themeMode": "主题模式",
-          "language": "语言",
-          "updateSettings": "更新设置",
-          "autoCheckUpdate": "自动检查更新",
-          "permissionsSettings": "权限设置",
-          "inputMonitoringPermission": "输入监控权限"
+          "appSettings": "앱 설정",
+          "launchOnStartup": "시작 시 자동 실행",
+          "showTaskbarIcon": "작업 표시줄 아이콘 표시",
+          "appearanceSettings": "외관 설정",
+          "themeMode": "테마 모드",
+          "language": "언어",
+          "updateSettings": "업데이트 설정",
+          "autoCheckUpdate": "자동 업데이트 확인",
+          "permissionsSettings": "권한 설정",
+          "inputMonitoringPermission": "입력 모니터링 권한"
         },
         "options": {
-          "auto": "跟随系统",
-          "lightMode": "亮色模式",
-          "darkMode": "暗色模式"
+          "auto": "시스템 따르기",
+          "lightMode": "밝은 모드",
+          "darkMode": "어두운 모드"
         },
         "hints": {
-          "showTaskbarIcon": "启用后，即可通过 OBS Studio 捕获窗口。",
-          "inputMonitoringPermission": "开启输入监控权限，以便接收系统的键盘和鼠标事件来响应你的操作。",
-          "inputMonitoringPermissionGuide": "如果权限已开启，请先选中并点击“-”按钮将其删除，然后重新手动添加，最后重启应用以确保权限生效。"
+          "showTaskbarIcon": "활성화하면 OBS Studio로 창을 캡처할 수 있습니다.",
+          "inputMonitoringPermission": "입력 모니터링 권한을 활성화하여 키보드 및 마우스 이벤트를 수신하세요.",
+          "inputMonitoringPermissionGuide": "권한이 이미 활성화된 경우, 선택 후 \"-\" 버튼을 클릭하여 삭제하고, 수동으로 다시 추가한 다음 앱을 재시작하여 권한을 적용하세요."
         },
         "status": {
-          "authorized": "已授权",
-          "authorize": "去授权"
+          "authorized": "승인됨",
+          "authorize": "권한 부여하기"
         },
         "buttons": {
-          "openNow": "前往开启",
-          "openLater": "稍后开启"
+          "openNow": "지금 열기",
+          "openLater": "나중에 열기"
         }
       },
       "model": {
-        "title": "模型管理",
+        "title": "모델 관리",
         "labels": {
-          "deleteModel": "删除模型"
+          "deleteModel": "모델 삭제"
         },
         "hints": {
-          "deleteSuccess": "删除成功",
-          "deleteModel": "你确定要删除此模型吗？",
-          "importSuccess": "导入成功",
-          "clickOrDragToImport": "点击或拖动至此区域导入"
+          "deleteSuccess": "삭제 완료",
+          "deleteModel": "이 모델을 삭제하시겠습니까?",
+          "importSuccess": "가져오기 완료",
+          "clickOrDragToImport": "클릭하거나 이 영역으로 드래그하여 가져오기"
         },
         "tooltips": {
-          "createModel": "制作模型",
-          "convertModel": "转换模型",
-          "moreModels": "更多模型"
+          "createModel": "모델 만들기",
+          "convertModel": "모델 변환",
+          "moreModels": "더 많은 모델"
         }
       },
       "shortcut": {
-        "title": "快捷键",
+        "title": "단축키",
         "labels": {
-          "toggleCat": "打开猫咪",
-          "togglePreferences": "打开偏好设置",
-          "mirrorMode": "镜像模式",
-          "passThrough": "窗口穿透",
-          "alwaysOnTop": "窗口置顶"
+          "toggleCat": "고양이 열기",
+          "togglePreferences": "환경설정 열기",
+          "mirrorMode": "미러 모드",
+          "passThrough": "창 투과",
+          "alwaysOnTop": "창 상단 고정"
         },
         "hints": {
-          "toggleCat": "切换猫咪窗口的显示与隐藏。",
-          "togglePreferences": "切换偏好设置窗口的显示与隐藏。",
-          "mirrorMode": "切换猫咪的镜像模式。",
-          "passThrough": "切换猫咪窗口是否可穿透。",
-          "alwaysOnTop": "切换猫咪窗口是否置顶。"
+          "toggleCat": "고양이 창의 표시/숨기기를 전환합니다.",
+          "togglePreferences": "환경설정 창의 표시/숨기기를 전환합니다.",
+          "mirrorMode": "고양이의 미러 모드를 전환합니다.",
+          "passThrough": "고양이 창의 투과 여부를 전환합니다.",
+          "alwaysOnTop": "고양이 창의 상단 고정 여부를 전환합니다."
         }
       },
       "about": {
-        "title": "关于",
+        "title": "정보",
         "labels": {
-          "aboutApp": "关于软件",
-          "appLog": "软件日志",
-          "appInfo": "软件信息",
-          "openSource": "开源地址"
+          "aboutApp": "앱 정보",
+          "appLog": "앱 로그",
+          "appInfo": "앱 정보",
+          "openSource": "오픈 소스 주소"
         },
         "hints": {
-          "appInfo": "复制软件信息并提供给 Bug Issue。",
-          "copySuccess": "复制成功"
+          "appInfo": "앱 정보를 복사하여 버그 이슈에 제공하세요.",
+          "copySuccess": "복사 완료"
         },
         "buttons": {
-          "checkUpdate": "检查更新",
-          "copy": "复制",
-          "feedbackIssues": "反馈问题",
-          "viewLog": "查看日志"
+          "checkUpdate": "업데이트 확인",
+          "copy": "복사",
+          "feedbackIssues": "문제 피드백",
+          "viewLog": "로그 보기"
         }
       }
     }
@@ -133,49 +133,49 @@
   "components": {
     "proShortcut": {
       "hints": {
-        "pressRecordShortcut": "按下录制快捷键",
-        "clickRecordShortcut": "点击录制快捷键"
+        "pressRecordShortcut": "단축키 녹화를 위해 누르세요",
+        "clickRecordShortcut": "단축키 녹화를 위해 클릭하세요"
       }
     },
     "updateApp": {
-      "title": "发现新版本🥳",
+      "title": "새 버전 발견🥳",
       "labels": {
-        "updateVersion": "更新版本：",
-        "updateTime": "更新时间：",
-        "changelog": "更新日志："
+        "updateVersion": "업데이트 버전:",
+        "updateTime": "업데이트 시간:",
+        "changelog": "변경 로그:"
       },
       "hints": {
-        "checkingUpdates": "正在检查更新...",
-        "alreadyLatest": "当前已是最新版本🎉"
+        "checkingUpdates": "업데이트 확인 중...",
+        "alreadyLatest": "현재 최신 버전입니다🎉"
       },
       "buttons": {
-        "updateNow": "立即更新",
-        "updateLater": "稍后更新"
+        "updateNow": "지금 업데이트",
+        "updateLater": "나중에 업데이트"
       }
     }
   },
   "composables": {
     "useSharedMenu": {
       "labels": {
-        "preference": "偏好设置...",
-        "hideCat": "隐藏猫咪",
-        "showCat": "显示猫咪",
-        "passThrough": "窗口穿透",
-        "windowSize": "窗口尺寸",
-        "opacity": "不透明度"
+        "preference": "환경설정...",
+        "hideCat": "고양이 숨기기",
+        "showCat": "고양이 표시",
+        "passThrough": "창 투과",
+        "windowSize": "창 크기",
+        "opacity": "불투명도"
       }
     },
     "useTray": {
-      "checkUpdate": "检查更新",
-      "openSource": "开源地址",
-      "restartApp": "重启应用",
-      "quitApp": "退出应用"
+      "checkUpdate": "업데이트 확인",
+      "openSource": "오픈 소스 주소",
+      "restartApp": "앱 재시작",
+      "quitApp": "앱 종료"
     }
   },
   "utils": {
     "live2d": {
       "hints": {
-        "notFound": "未找到模型主配置文件，请确认模型文件是否完整。"
+        "notFound": "모델 메인 설정 파일을 찾을 수 없습니다. 모델 파일이 완전한지 확인하세요."
       }
     }
   }

@@ -30,52 +30,52 @@
 | -------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
 | ![macOS](https://i0.hdslb.com/bfs/openplatform/dff276b96d49c5d6c431b74b531aab72191b3d87.png) | ![Windows](https://i0.hdslb.com/bfs/openplatform/a4149b753856ee7f401989da902cf3b5ad35b39e.png) | ![Linux](https://i0.hdslb.com/bfs/openplatform/3b49f961819d3ff63b2b80251c1cc13c27e986b0.png) |
 
-## 赞助商
+## 후원사
 
 <a href="https://www.toolsetlink.com">
   <img height="54" alt="UpgradeLink" src="https://github.com/user-attachments/assets/6b84fb0f-3f1d-44b5-9932-2298bc999d8d" />
 </a>
 
-## 开发背景
+## 개발 배경
 
-本项目的灵感来源于 [MMmmmoko](https://github.com/MMmmmoko) 大佬开发的 [Bongo-Cat-Mver](https://github.com/MMmmmoko/Bongo-Cat-Mver)。它以独特的猫咪互动功能深受用户喜爱，但仅支持 Windows 平台。作为一名深度 macOS 用户，我特别希望在自己的设备上也能使用这款可爱的猫咪，于是我决定开发一个适配 macOS 的版本。
+이 프로젝트는 [MMmmmoko](https://github.com/MMmmmoko)가 개발한 [Bongo-Cat-Mver](https://github.com/MMmmmoko/Bongo-Cat-Mver)에서 영감을 받았습니다. 독특한 고양이 인터랙션 기능으로 많은 사랑을 받았지만, Windows 플랫폼만 지원했습니다. macOS 사용자로서 자신의 기기에서도 이 귀여운 고양이를 사용하고 싶어 macOS 버전을 개발하게 되었습니다.
 
-同时，得益于 [Tauri](https://github.com/tauri-apps/tauri) 强大的跨平台能力，本项目不仅支持 macOS，还兼容 Windows 和 Linux(x11)，让更多的用户都能与这只可爱的猫咪互动！
+또한 [Tauri](https://github.com/tauri-apps/tauri)의 강력한 크로스 플랫폼 기능 덕분에, 이 프로젝트는 macOS뿐만 아니라 Windows와 Linux(x11)도 지원하여 더 많은 사용자가 이 귀여운 고양이와 함께할 수 있습니다!
 
-## 下载
+## 다운로드
 
-- [夸克网盘](https://pan.quark.cn/s/70f2f2663ce1)
+- [콰크 클라우드](https://pan.quark.cn/s/70f2f2663ce1)
 - [GitHub Releases](https://github.com/ayangweb/BongoCat/releases)
 
-不确定下载哪一个？请查阅[下载指南](.github/DOWNLOAD_GUIDE.md)。
+어떤 것을 다운로드할지 모르겠다면? [다운로드 가이드](.github/DOWNLOAD_GUIDE.md)를 확인하세요.
 
-## 功能介绍
+## 기능 소개
 
-- 适配 macOS、Windows 和 Linux(x11)。
-- 根据键盘、鼠标或手柄的操作，同步对应的动作。
-- 支持导入自定义模型，自由打造专属猫咪形象。
-- 完全开源，代码公开透明，绝不收集任何用户数据。
-- 支持离线运行，无需联网，保护用户隐私。
+- macOS, Windows, Linux(x11) 지원.
+- 키보드, 마우스, 게임패드 조작에 맞춰 동작을 동기화.
+- 커스텀 모델 가져오기를 지원하여 나만의 고양이 캐릭터를 자유롭게 만들기.
+- 완전한 오픈 소스, 코드가 공개되어 있으며 어떤 사용자 데이터도 수집하지 않음.
+- 오프라인 실행을 지원하며, 인터넷 연결 없이 사용자 개인정보를 보호.
 
-## 模型转换
+## 모델 변환
 
-如果你想将 Bongo-Cat-Mver 应用中的模型转换为兼容 BongoCat 的格式，可以使用以下工具：
+Bongo-Cat-Mver 앱의 모델을 BongoCat 호환 형식으로 변환하려면 다음 도구를 사용하세요:
 
-🔗 [在线转换](https://bongocat.vteamer.cc)
+🔗 [온라인 변환](https://bongocat.vteamer.cc)
 
-## 更多模型
+## 더 많은 모델
 
-你可以在这个仓库中探索、下载更多猫咪模型，或提交你的创作，与大家一起分享：
+이 저장소에서 더 많은 고양이 모델을 탐색하고 다운로드하거나, 자신의 작품을 제출하여 함께 공유할 수 있습니다:
 
 📦 [Awesome-BongoCat](https://github.com/ayangweb/Awesome-BongoCat)
 
-## 社区交流
+## 커뮤니티 소통
 
 <table>
   <thead>
     <tr>
-      <th>QQ 群 1</th>
-      <th>QQ 群 2</th>
+      <th>QQ 그룹 1</th>
+      <th>QQ 그룹 2</th>
     </tr>
   </thead>
   <tbody>
@@ -122,25 +122,25 @@
   </tbody>
 </table>
 
-## 赞赏
+## 후원
 
-每一份认可都值得被珍视！赞赏随缘，心意无价，谢谢你的支持 ❤️
+모든 응원은 소중합니다! 후원은 자유롭게, 마음이 담긴 감사를 전합니다 ❤️
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/openplatform/e7438bff14cdfb6bfd0feacbb482f99ea4093294.png" />
   <source media="(prefers-color-scheme: light)" srcset="https://i0.hdslb.com/bfs/openplatform/da55cc3ec1556580c91e59f589792866c998c7c6.png" />
-  <img alt="微信赞赏码" src="https://i0.hdslb.com/bfs/openplatform/da55cc3ec1556580c91e59f589792866c998c7c6.png" height="250" />
+  <img alt="위챗 후원 코드" src="https://i0.hdslb.com/bfs/openplatform/da55cc3ec1556580c91e59f589792866c998c7c6.png" height="250" />
 </picture>
 
-## 贡献指南
+## 기여 가이드
 
-感谢大家为 BongoCat 做出的宝贵贡献！如果你也希望为 BongoCat 做出贡献，请查阅[贡献指南](.github/CONTRIBUTING.md)。
+BongoCat에 소중한 기여를 해주신 모든 분들께 감사드립니다! BongoCat에 기여하고 싶으시다면 [기여 가이드](.github/CONTRIBUTING.md)를 확인하세요.
 
 <a href="https://openomy.com/ayangweb/BongoCat" target="_blank" style="display: block; width: 100%;" align="center">
   <img src="https://openomy.com/svg?repo=ayangweb/BongoCat&chart=bubble" alt="Contribution Leaderboard" style="display: block; width: 100%;" />
 </a>
 
-## 历史星标
+## 별표 기록
 
 <a href="https://www.star-history.com/#ayangweb/BongoCat&Date">
  <picture>

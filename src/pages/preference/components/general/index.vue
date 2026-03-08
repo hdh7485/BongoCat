@@ -47,7 +47,7 @@ watch(() => generalStore.app.autostart, async (value) => {
     <ProListItem :title="$t('pages.preference.general.labels.language')">
       <Select v-model:value="generalStore.appearance.language">
         <Select.Option value="zh-CN">
-          简体中文
+          간체 중국어
         </Select.Option>
         <Select.Option value="en-US">
           English

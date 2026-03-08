@@ -24,24 +24,24 @@ export interface GeneralStore {
 }
 
 export const useGeneralStore = defineStore('general', () => {
-  /* ------------ 废弃字段（后续删除） ------------ */
+  /* ------------ 폐기된 필드 (추후 삭제) ------------ */
 
-  /** @deprecated 请使用 `update.autoCheck` */
+  /** @deprecated `update.autoCheck` 를 사용하세요 */
   const autoCheckUpdate = ref(false)
 
-  /** @deprecated 请使用 `app.autostart` */
+  /** @deprecated `app.autostart` 를 사용하세요 */
   const autostart = ref(false)
 
-  /** @deprecated 请使用 `app.taskbarVisible` */
+  /** @deprecated `app.taskbarVisible` 를 사용하세요 */
   const taskbarVisibility = ref(false)
 
-  /** @deprecated 请使用 `appearance.theme` */
+  /** @deprecated `appearance.theme` 를 사용하세요 */
   const theme = ref<'auto' | Theme>('auto')
 
-  /** @deprecated 请使用 `appearance.isDark` */
+  /** @deprecated `appearance.isDark` 를 사용하세요 */
   const isDark = ref(false)
 
-  /** @deprecated 用于标识数据是否已迁移，后续版本将删除 */
+  /** @deprecated 데이터 마이그레이션 여부를 표시하며, 이후 버전에서 삭제됩니다 */
   const migrated = ref(false)
 
   const app = reactive<GeneralStore['app']>({

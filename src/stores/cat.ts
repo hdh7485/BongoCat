@@ -21,30 +21,30 @@ export interface CatStore {
 }
 
 export const useCatStore = defineStore('cat', () => {
-  /* ------------ 废弃字段（后续删除） ------------ */
+  /* ------------ 폐기된 필드 (추후 삭제) ------------ */
 
-  /** @deprecated 请使用 `model.mirror` */
+  /** @deprecated `model.mirror` 를 사용하세요 */
   const mirrorMode = ref(false)
 
-  /** @deprecated 请使用 `model.single` */
+  /** @deprecated `model.single` 를 사용하세요 */
   const singleMode = ref(false)
 
-  /** @deprecated 请使用 `model.mouseMirror` */
+  /** @deprecated `model.mouseMirror` 를 사용하세요 */
   const mouseMirror = ref(false)
 
-  /** @deprecated 请使用 `window.passThrough` */
+  /** @deprecated `window.passThrough` 를 사용하세요 */
   const penetrable = ref(false)
 
-  /** @deprecated 请使用 `window.alwaysOnTop` */
+  /** @deprecated `window.alwaysOnTop` 를 사용하세요 */
   const alwaysOnTop = ref(true)
 
-  /** @deprecated 请使用 `window.scale` */
+  /** @deprecated `window.scale` 를 사용하세요 */
   const scale = ref(100)
 
-  /** @deprecated 请使用 `window.opacity` */
+  /** @deprecated `window.opacity` 를 사용하세요 */
   const opacity = ref(100)
 
-  /** @deprecated 用于标识数据是否已迁移，后续版本将删除 */
+  /** @deprecated 데이터 마이그레이션 여부를 표시하며, 이후 버전에서 삭제됩니다 */
   const migrated = ref(false)
 
   const model = reactive<CatStore['model']>({
