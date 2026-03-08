@@ -74,19 +74,15 @@ Bongo-Cat-Mver 형식의 모델을 BongoCat 호환 형식으로 변환하려면:
 
 🔗 [온라인 변환 도구](https://bongocat.vteamer.cc)
 
+## 기술 스택
+
+이 앱은 [Tauri](https://v2.tauri.app/)를 기반으로 만들어졌습니다.
+
+Tauri는 **Rust**로 작성된 크로스 플랫폼 데스크탑 앱 프레임워크입니다. 웹 기술(HTML, CSS, JavaScript)로 UI를 만들고, 시스템 기능은 Rust로 처리합니다. Electron과 비슷한 개념이지만 Chromium을 번들링하지 않고 OS 내장 웹뷰를 사용하기 때문에 **앱 크기가 훨씬 작고 메모리 사용량도 낮습니다**.
+
 ## 기여
 
 버그 리포트, 기능 제안, PR 모두 환영합니다. 자세한 내용은 [기여 가이드](.github/CONTRIBUTING.md)를 참고하세요.
-
-## 별표 기록
-
-<a href="https://www.star-history.com/#hdh7485/BongoCat&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=hdh7485/BongoCat&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=hdh7485/BongoCat&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=hdh7485/BongoCat&type=Date" />
-  </picture>
-</a>
 
 ## 라이센스
 
