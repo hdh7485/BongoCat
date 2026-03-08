@@ -69,69 +69,6 @@ Bongo-Cat-Mver 앱의 모델을 BongoCat 호환 형식으로 변환하려면 다
 
 📦 [Awesome-BongoCat](https://github.com/ayangweb/Awesome-BongoCat)
 
-## 커뮤니티 소통
-
-<table>
-  <thead>
-    <tr>
-      <th>QQ 그룹 1</th>
-      <th>QQ 그룹 2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>
-        <a href="https://qm.qq.com/q/AS3gNv2Vzy">
-          <picture>
-            <source
-              media="(prefers-color-scheme: dark)"
-              srcset="https://i0.hdslb.com/bfs/openplatform/8ecdc4982ab01b59d7731fcca3ec26631a274560.png"
-            />
-            <source
-              media="(prefers-color-scheme: light)"
-              srcset="https://i0.hdslb.com/bfs/openplatform/09f56580397063e1819c4c2ed63d07dee12720e1.png"
-            />
-            <img
-              alt="QQ Group 1"
-              src="https://i0.hdslb.com/bfs/openplatform/09f56580397063e1819c4c2ed63d07dee12720e1.png"
-              height="250"
-            />
-          </picture>
-        </a>
-      </td>
-      <td>
-        <a href="https://qm.qq.com/q/TmltLAod2O">
-          <picture>
-            <source
-              media="(prefers-color-scheme: dark)"
-              srcset="https://i0.hdslb.com/bfs/openplatform/473c522487ff33e0f32b15466aeb0734f17161c8.png"
-            />
-            <source
-              media="(prefers-color-scheme: light)"
-              srcset="https://i0.hdslb.com/bfs/openplatform/d5ae8c5af6ae1d0a1f066705ee822d1287384cf6.png"
-            />
-            <img
-              alt="QQ Group 2"
-              src="https://i0.hdslb.com/bfs/openplatform/d5ae8c5af6ae1d0a1f066705ee822d1287384cf6.png"
-              height="250"
-            />
-          </picture>
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-## 후원
-
-모든 응원은 소중합니다! 후원은 자유롭게, 마음이 담긴 감사를 전합니다 ❤️
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://i0.hdslb.com/bfs/openplatform/e7438bff14cdfb6bfd0feacbb482f99ea4093294.png" />
-  <source media="(prefers-color-scheme: light)" srcset="https://i0.hdslb.com/bfs/openplatform/da55cc3ec1556580c91e59f589792866c998c7c6.png" />
-  <img alt="위챗 후원 코드" src="https://i0.hdslb.com/bfs/openplatform/da55cc3ec1556580c91e59f589792866c998c7c6.png" height="250" />
-</picture>
-
 ## 기여 가이드
 
 BongoCat에 소중한 기여를 해주신 모든 분들께 감사드립니다! BongoCat에 기여하고 싶으시다면 [기여 가이드](.github/CONTRIBUTING.md)를 확인하세요.
